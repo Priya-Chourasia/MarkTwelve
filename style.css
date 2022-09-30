@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Poppins:wght@300&family=Quicksand:wght@600&family=Roboto+Mono:ital,wght@0,500;1,700&family=Ubuntu&display=swap');
+  body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin:0px;
+  }
+  .link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0rem;
+    font-weight: bold;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+.navigation{
+    background-color: rgb(14 165 233);
+    color:#fff;
+    border-bottom-left-radius: 1rem;
+    text-align: right;
+    padding: 1rem;
+    padding-top: 1rem;
+}
+.navigation .link{
+    color:#fff; 
+
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.navigation .list-non-bullet-nav{
+    text-align: right;
+
+}
+
+.question-container {
+    width: 100%;
+    margin: 1rem auto;
+    font-size:large;
+    padding: 0.5rem;
+  }
+  #output{
+    font-size: x-large;
+    margin: 1rem;
+    font-weight: bold;
+    padding:1rem;
+  }  
+  .area-btn,
+  .hypotenus-btn,
+  .istriangle-btn,
+  .submit-answer-btn{
+    border: none;
+    color: black;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+  }
