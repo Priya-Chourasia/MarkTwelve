@@ -8,7 +8,12 @@ function multiplicationofBaseAndHeight(a,b){
     return areaofTriangle;
     }
     function calculateArea(){
-       const areaofTriangle= multiplicationofBaseAndHeight(Number(input[0].value),Number(input[1].value));
-       Output.innerText="Your area is "+ areaofTriangle;
+      if(input[0].value<0||input[1].value<0||input[0].value==""||input[1].value==""){
+         Output.innerText="Please enter a valid value";
+     }else{
+      const areaofTriangle= multiplicationofBaseAndHeight(Number(input[0].value),Number(input[1].value));
+      Output.innerText="Your area is "+ areaofTriangle;
+     }
+       
     }
        areaButton.addEventListener('click',calculateArea);
